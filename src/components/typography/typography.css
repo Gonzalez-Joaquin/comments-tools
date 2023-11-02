@@ -1,0 +1,84 @@
+/* ---- text-type ---- */
+
+.text-title {
+  font-weight: 600;
+}
+
+.text-subtitle {
+  font-weight: 500;
+}
+
+.text-label {
+  font-weight: 400;
+}
+
+.text-p {
+  user-select: text;
+  font-weight: 200;
+}
+
+.text-button {
+  font-weight: 300;
+}
+
+/* ---- text-transform ---- */
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+/* ---- text-color ---- */
+
+.text-primario {
+  color: var(--font-primary);
+}
+
+.text-secundario {
+  color: var(--font-secondary);
+}
+
+.text-color-details {
+  color: var(--details);
+}
+
+.text-color-error {
+  color: var(--error);
+}
+
+.text-color-great {
+  color: var(--great);
+}
+
+.text-blanco {
+  color: var(--ba-primary);
+}
+
+/* ---- text-size ---- */
+
+.text-extra-small {
+  font-size: 16px;
+}
+
+.text-small {
+  font-size: 18px;
+}
+
+.text-pre-medium {
+  font-size: 21px;
+}
+
+.text-medium {
+  font-size: 34px;
+}
+
+.text-large {
+  font-size: 40px;
+}
+
+.text-auto {
+  font-size: 100%;
+}

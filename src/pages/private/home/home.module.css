@@ -1,0 +1,33 @@
+.data {
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.data>form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 20px;
+  border-radius: 6px;
+  box-shadow: var(--shadow);
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding-block: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.result {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}

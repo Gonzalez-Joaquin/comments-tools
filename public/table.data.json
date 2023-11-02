@@ -1,0 +1,35 @@
+[
+    {
+        "user": "Joaquin Gonzalez",
+        "history": [
+            {
+                "table": [
+                    {
+                        "id": 0,
+                        "time": "02/10/2023",
+                        "title": "Joaquin Gonzalez"
+                    },
+                    {
+                        "id": 1,
+                        "time": "2H",
+                        "title": "Correr"
+                    }
+                ]
+            },
+            {
+                "table": [
+                    {
+                        "id": 0,
+                        "time": "03/10/2023",
+                        "title": "Joaquin Gonzalez"
+                    },
+                    {
+                        "id": 1,
+                        "time": "1H",
+                        "title": "Dormir"
+                    }
+                ]
+            }
+        ]
+    }
+]

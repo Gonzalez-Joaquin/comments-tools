@@ -1,0 +1,39 @@
+:root {
+  --boton: #1652f0;
+  --boton-hover: #0a46e4;
+  --boton-active: #0039d7;
+}
+
+.button {
+  background-color: var(--boton);
+  border: 1px solid var(--boton);
+  font-size: 14px;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  gap: 10px;
+  transition: var(--transition);
+}
+
+.button:disabled {
+  opacity: 0.5;
+}
+
+.button:focus {
+  outline: 0;
+}
+
+.button:hover {
+  background-color: var(--boton-hover);
+  border-color: var(--boton-hover);
+}
+
+.button:active {
+  background-color: var(--boton-active);
+  border-color: var(--boton-active);
+}
+
+.icon {
+  color: var(--fondo);
+  line-height: 0;
+}

@@ -1,0 +1,5 @@
+export { default as text } from './typography/typography'
+export { default as icon } from './icon/icon'
+export { default as button } from './button/button'
+export { default as input } from './input/input'
+export { default as table } from './table/table'

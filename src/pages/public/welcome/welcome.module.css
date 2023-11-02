@@ -1,0 +1,12 @@
+.section {
+  flex-direction: column;
+  gap: 20px;
+}
+
+.article {
+  flex-direction: column;
+}
+
+.form{
+  gap: 20px;
+}

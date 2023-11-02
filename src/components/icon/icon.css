@@ -1,0 +1,47 @@
+.icon {
+  line-height: 0;
+}
+
+/* Style_Color */
+
+.icon-fuente-primaria {
+  color: var(--font-primary);
+}
+
+.icon-fuente-secundaria {
+  color: var(--font-secondary);
+}
+
+.icon-color-details {
+  color: var(--details);
+}
+
+.icon-color-error {
+  color: var(--error);
+}
+
+.icon-color-great {
+  color: var(--great);
+}
+
+.icon-blanco {
+  color: var(--ba-primary);
+}
+
+/* Size */
+
+.icon-small {
+  font-size: 16px;
+}
+
+.icon-medium {
+  font-size: 21px;
+}
+
+.icon-large {
+  font-size: 30px;
+}
+
+.icon-auto {
+  font-size: 100%;
+}
