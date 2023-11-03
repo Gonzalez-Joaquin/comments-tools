@@ -21,7 +21,7 @@ const history = () => {
                 <Components.text type='h3' style_type='text-subtitle' content={`Este es tu historial ${name}`} />
                 <div className='flex'>
                     {allHistory.length > 0 ? (
-                        allHistory.map(({ table, id }) => <Components.table table={table} key={id} />)
+                        <Components.historyCard history={allHistory} />
                     ) : (
                         <Components.text type='h3' style_type='text-title' content='Su historial esta vacio' styles_color='text-color-error' />
                     )

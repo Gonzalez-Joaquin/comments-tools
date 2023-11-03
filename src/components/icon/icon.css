@@ -1,5 +1,6 @@
 .icon {
   line-height: 0;
+  transition: var(--transition);
 }
 
 /* Style_Color */
