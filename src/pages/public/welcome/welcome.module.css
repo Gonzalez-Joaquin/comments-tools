@@ -5,8 +5,51 @@
 
 .article {
   flex-direction: column;
+  transform: translateY(80%);
+  background: var(--ba-primary);
+  animation: articleReveal .7s .3s ease forwards;
 }
 
-.form{
+.form {
+  opacity: 0;
   gap: 20px;
+  animation: formReveal .7s .5s ease forwards;
+}
+
+.form>button {
+  transition: ease .5s;
+}
+
+.form>div>input {
+  width: 100%;
+  transition: .5s ease;
+}
+
+.form.active>div>input {
+  transform: translateX(150px);
+  width: 0%;
+}
+
+.form.active>button {
+  transform: translateX(-150%);
+}
+
+@keyframes articleReveal {
+  0% {
+    transform: translateY(60%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes formReveal {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }

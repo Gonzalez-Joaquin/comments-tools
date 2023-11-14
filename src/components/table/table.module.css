@@ -21,7 +21,7 @@
   width: 100%;
 }
 
-.thead > div {
+.thead>div {
   width: 100%;
   display: grid;
   place-items: center;
@@ -33,9 +33,39 @@
   width: 100%;
 }
 
-.tableRow > div {
+.tableRow>div {
   padding: 7px 10px;
   display: grid;
   place-items: center;
   width: 100%;
+}
+
+.buttons {
+  gap: 10px;
+}
+
+.buttons>button {
+  padding: 4px;
+  border-radius: 6px;
+  outline: 0;
+  border: 0;
+  background: var(--ba-primary);
+  transition: var(--transition);
+}
+
+.buttons>button:is(:hover, :focus, :active) {
+  background: var(--ba-secondary);
+  box-shadow: var(--shadow-secondary);
+  cursor: pointer;
+}
+
+.actions {
+  max-width: fit-content;
+}
+
+.buttonsContainer {
+  margin-top: 5px;
+  justify-content: flex-end;
+  background: var(--ba-secondary);
+  border-radius: 0px 0px 6px 6px;
 }

@@ -4,16 +4,16 @@ import User from "../../models/user.model"
 const EmptyUserState: User = { name: '', table: [], history: [] }
 
 const persistLocalStorageUserState = (user: User) => {
-    localStorage.setItem('user', JSON.stringify({ ...user }))
+    localStorage.setItem('comentarios', JSON.stringify({ ...user }))
 }
 
 const clearLocalStorageUserState = () => {
-    localStorage.removeItem('user')
+    localStorage.removeItem('comentarios')
 }
 
 const userSlice = createSlice({
     name: 'user',
-    initialState: localStorage.getItem('user') ? JSON.parse(localStorage.getItem('user') as string) : EmptyUserState,
+    initialState: localStorage.getItem('comentarios') ? JSON.parse(localStorage.getItem('comentarios') as string) : EmptyUserState,
     reducers: {
         createUser: (_state, action) => {
             persistLocalStorageUserState(action.payload)
